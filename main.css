@@ -1,0 +1,66 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, 'Times New Roman', sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* centraliza vertical */
+    text-align: center;
+}
+/* Título */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Imagem */
+#imagem {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+/* Select */
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/* Botão */
+input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Descrição */
+#descricao {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #444;
+    max-width: 400px;
+}
