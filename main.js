@@ -10,7 +10,7 @@ function mostrarProduto() {
             break;
 
         case "camSeg":
-            document.getElementById("imagem").src = "img/Camera de segurança.jpg";
+            document.getElementById("imagem").src = "img/CamSeg.jpg";
             descricao.textContent = "Câmera De Segurança Sem Fio Wi-fi Externa Interna HD 3MP Lente Dupla Giratória Smart IP66 Prova D'água Visão Noturna Infravermelho Chamada de Voz Bidirecional Premium";
             break;
 
